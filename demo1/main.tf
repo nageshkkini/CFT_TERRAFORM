@@ -16,7 +16,7 @@ provider "aws" {
 
 resource "aws_instance" "app_server" {
 
-  ami= "ami-09f6591a16da2bdfa"
+  ami= "ami-0e122e271851b1774"
   instance_type = "t2.micro"
   tags= {
     Name = "Nagesh_terraform"
