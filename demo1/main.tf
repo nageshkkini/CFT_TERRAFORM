@@ -19,6 +19,6 @@ resource "aws_instance" "app_server" {
   ami= "ami-09f6591a16da2bdfa"
   instance_type = "t2.micro"
   tags= {
-    name = "Nagesh_Terraform"
+    Name = "Nagesh_Terraform"
 }
 }
